@@ -41,5 +41,5 @@ I run Apache as an SSL proxy in front of the application. Apache routes all requ
 I use [PM2](https://pm2.keymetrics.io/) to keep the service running.
 
 ```sh
-pm2 install --name "Secure chat" index.js
+pm2 start --name "Secure chat" index.js
 ```
